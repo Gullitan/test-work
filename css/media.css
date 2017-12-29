@@ -1,532 +1,133 @@
-@media (max-width: 1355px) {
-    .header .navbar .navbar-inner .collapse.cola {
-        padding-left: 15px;
-        padding-right: 15px
+@media (max-width: 1200px) {
+    footer .number div {
+        font-size: 22px;
+        font-weight: 400;
+        margin-top: 7px
     }
-    .header .navbar .navbar-inner .collapse.cola .nav {
-        float: none;
-        text-align: center
+    .header-bottom ul {
+        margin-bottom: 21px
     }
-    .header .navbar .navbar-inner .collapse.cola .nav .none {
+    .header-bottom ul li span, .header-bottom ul li a {
         display: none
     }
-    .header .navbar .navbar-inner .collapse.cola .nav li {
-        float: none;
-        display: inline-block
+    .header-bottom ul li:first-child::before {
+        display: none
     }
-    .header .navbar .navbar-inner .collapse.cola .nav li a {
-        padding-right: 15px;
-        font-size: 12px;
-        font-weight: 700;
-        padding-left: 15px
-    }
-    .header .navbar .navbar-inner .collapse.cola .nav li:last-child form {
-        padding-left: 20px;
-        margin-left: 0
-    }
-    .header .navbar .navbar-inner .collapse.cola .nav li:last-child form input {
-        width: 250px
+    .others-seminars .seminar1, .others-seminars .seminar2 {
+        min-height: 345px
     }
 }
-@media (max-width: 1199px) {
-    @-moz-document url-prefix() {
-        main.container section.company-info.col-lg-6 .standarts div.book-list .dark-blue.item a:nth-child(3) {
-            margin-top: 2px !important
-        }
-    }
-    main.container {
-        width: 100%
-    }
-    main.container .company-info {
-        width: 59.685%;
-        padding-right: 0
-    }
-    main.container .company-info .standarts .book-list .dark-blue {
-        z-index: 9999
-    }
-    main.container .company-info .standarts .book-list .dark-blue a:nth-child(3) {
-        font-size: 10px
-    }
-    main.container .company-info .standarts .book-list .dark-blue .bottom-figure:after {
-        content: "";
-        -ms-transform: skew(53deg);
-        transform: skew(53deg);
-        -moz-transform: skew(53deg);
-        -o-transform: skew(53deg);
-        background: #043551;
-        position: absolute;
-        bottom: -61px;
-        height: 31px;
-        left: 21px;
-        max-width: 210px;
-        width: 100%
+@media (max-width: 1075px) {
+    .enroll .form .info-form {
+        display: none
     }
 }
-@media (max-width: 1120px) {
-    main.container aside.right, main.container aside.our-experts {
-        padding-left: 15px
-    }
-}
-@media (max-width: 1157px) {
-    main.container .company-info {
-        padding-left: 15px;
-        width: 57%
-    }
-}
-@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
-    header.header section.prime {
-        padding-bottom: 50px
-    }
-}
-@media (max-width: 1099px) {
-    @-moz-document url-prefix() {
-        main.container section.company-info.col-lg-6 .standarts div.book-list .dark-blue.item a:nth-child(2) {
-            margin-top: 12px !important
-        }
-    }
-    main.container .company-info div.standarts div.book-list .item .img {
-        margin-left: auto;
-        margin-right: auto
-    }
-    main.container .company-info div.standarts div.book-list .item .img:after {
-        left: -16px
-    }
-    main.container .company-info div.standarts div.book-list .dark-blue a:nth-child(2) {
-        margin-top: 15px;
-        margin-bottom: 10px;
-        width: 124px
-    }
-    main.container .company-info div.standarts div.book-list .dark-blue a:nth-child(3) {
-        margin-top: 0;
-        width: 120px
-    }
-    main.container .company-info div.standarts div.book-list .dark-blue .bottom-figure:after {
-        bottom: -57px
-    }
-    header.header .shapka.container-fluid .wrapper .contacts {
-        padding-right: 0
-    }
-    header.header .shapka.container-fluid .wrapper .contacts .number {
-        padding-right: 15px;
-        font-size: 20px
-    }
-    header.header .shapka.container-fluid .wrapper .contacts a {
-        font-size: 12px
-    }
-    header.header .shapka.container-fluid .wrapper .consultation a {
-        width: 170px;
-        padding: 4px
-    }
-}
-@media (max-width: 1086px) {
-    main.container .company-info {
-        padding-right: 0;
-        max-width: 52.3%
-    }
-    main.container .company-info .director-photo {
-        float: none;
-        margin: 0 auto;
-        margin-bottom: 40px;
-        text-align: center
-    }
-    main.container .company-info .standart {
-        float: none;
-        width: 100%;
-        text-align: center;
-        margin-bottom: 15px
-    }
-}
-@media (max-width: 981px) {
-    .header .navbar .navbar-inner .navbar-toggle {
-        margin-top: 19px
-    }
-    .header .navbar .navbar-inner .collapse.cola {
-        padding-left: 7px;
-        padding-right: 7px
-    }
-    .header .navbar .navbar-inner .collapse.cola .nav li a {
-        padding-right: 11px;
-        font-size: 11px;
-        font-weight: 700;
-        padding-left: 0
-    }
-    .header .navbar .navbar-inner .collapse.cola .nav li:last-child form {
-        padding-left: 11px;
-        margin-left: 0
-    }
-    .header .navbar .navbar-inner .collapse.cola .nav li:last-child form input {
-        width: 180px
-    }
-    main.container .company-info {
-        max-width: 47.91%
-    }
-}
-@media (max-width: 941px) {
-    header.header .shapka.container-fluid .wrapper > div {
-        padding: 5px
-    }
-    header.header .shapka.container-fluid .wrapper .logo {
-        margin-top: -25px;
-        padding-left: 20px
-    }
-    header.header .shapka.container-fluid .wrapper .logo img {
-        width: 82px
-    }
-    header.header .shapka.container-fluid .wrapper .contacts {
-        padding-right: 0;
-        width: 145px
-    }
-    header.header .shapka.container-fluid .wrapper .contacts .number {
-        padding-right: 10px;
+@media (max-width: 992px) {
+    footer .number div {
         font-size: 18px;
-        width: 149px;
-        display: block
+        font-weight: 400;
+        margin-top: 7px
     }
-    header.header .shapka.container-fluid .wrapper .contacts a {
-        float: left;
-        margin-left: 25px;
-        margin-top: -7px
+    .secminars h2 {
+        font-size: 30px
     }
-    header.header .shapka.container-fluid .wrapper .consultation a {
-        width: 170px;
-        padding: 4px
-    }
-}
-@media (max-width: 900px) {
-    main.container .company-info.col-md-12 {
-        max-width: 100% !important;
-        float: none;
-        width: 100% !important
-    }
-    main.container .company-info.col-md-12 div.standarts {
-        margin: 0 auto;
-        margin-bottom: 60px;
-        margin-top: 20px
-    }
-    main.container section.company-info, main.container aside.right {
-        padding-right: 15px;
-        float: none
-    }
-    main.container section.company-info > a, main.container aside.right > a {
-        width: 100%
-    }
-    main.container section.company-info .schedule, main.container aside.right .schedule {
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-align: center;
-        align-items: center;
-        -ms-flex-pack: justify;
-        justify-content: space-between
-    }
-    main.container section.company-info .schedule .info-schedule, main.container aside.right .schedule .info-schedule {
-        padding-left: 10px;
-        padding-right: 10px
-    }
-    main.container aside.right, main.container .our-experts {
-        width: auto;
-        padding-right: 15px
-    }
-    main.container aside.right > a, main.container .our-experts > a {
-        width: 100%
-    }
-    main.container .archive {
-        margin-bottom: 15px
-    }
-    main.container aside.left .new {
-        padding-left: 10px;
-        padding-right: 10px
-    }
-    main.container aside.left {
-        float: none;
-        width: 100%;
-        padding-left: 15px;
-        padding-right: 15px;
-        text-align: center;
-        margin: 0 auto;
-        margin-bottom: 15px
-    }
-    main.container aside.left .new a {
-        margin: auto
-    }
-    main.container aside.left > a {
-        margin: auto;
-        width: 100%
-    }
-    main.container aside.our-experts {
-        float: left
-    }
-    main.container aside.our-experts .expert {
-        padding-bottom: 32px
-    }
-    main.container aside.our-experts .expert:nth-child(3) {
-        padding-bottom: 33px
-    }
-}
-@media (max-width: 792px) {
-    .footer {
-        padding-top: 45px
-    }
-    .footer .nav-footer li {
-        display: block;
-        margin-bottom: 15px
-    }
-    .footer .nav-footer li a {
-        padding-right: 0
-    }
-}
-@media (max-width: 767px) {
-    header.header.container-fluid div.shapka .wrapper .consultation a {
-        width: 115px;
-        font-size: 10px
-    }
-    header.header.container-fluid div.shapka .wrapper .sign-in, header.header.container-fluid div.shapka .wrapper .social-icons {
-        display: none
-    }
-    header.header.container-fluid div.shapka .wrapper .contacts {
-        width: 130px
-    }
-    header.header.container-fluid div.shapka .wrapper .contacts .number {
-        font-size: 15px;
-        padding-right: 6px
-    }
-    header.header.container-fluid .navbar .navbar-inner .collapse.cola.navbar-collapse.in {
-        width: 310px;
-        position: absolute;
-        right: 5px;
-        float: right;
-        background-color: #efefef;
-        overflow: hidden;
-        z-index: 999999;
-        border: none
-    }
-    header.header.container-fluid .navbar .navbar-inner .collapse.cola.navbar-collapse.in .nav {
-        width: 310px;
-        float: right
-    }
-    header.header.container-fluid .navbar .navbar-inner .collapse.cola.navbar-collapse.in .nav li.none {
-        display: -ms-flexbox;
-        display: flex;
-        -ms-flex-align: center;
-        align-items: center;
+    section.info .row {
         -ms-flex-pack: center;
         justify-content: center
     }
-    header.header.container-fluid .navbar .navbar-inner .collapse.cola.navbar-collapse.in .nav li {
-        display: block
+    .bottom-footer .row > div {
+        margin-bottom: 25px
     }
-    header.header.container-fluid .navbar .navbar-inner .collapse.cola.navbar-collapse.in .nav li a {
-        padding: 10px;
-        padding-bottom: 0
+    .bottom-footer .row > div > * {
+        display: block;
+        text-align: center
     }
-    header.header.container-fluid .navbar .navbar-inner .collapse.cola.navbar-collapse.in .nav li:last-child form {
-        border: none;
-        padding-left: 0;
-        width: 93%
+    .enroll .form {
+        padding-bottom: 45px
     }
-    header.header.container-fluid .navbar .navbar-inner .collapse.cola.navbar-collapse.in .nav li:last-child form input {
-        width: 92%
+    .enroll .form h4 {
+        text-align: center;
+        margin: 0 auto
     }
-}
-@media (max-width: 755px) {
-    header.header #bs-example-navbar-collapse-1.cola.navbar-collapse.in {
-        top: -229px
+    .enroll .img {
+        display: none
     }
-    header.header .prime {
-        padding-bottom: 100px
+    .enroll .form::before {
+        width: 105%
     }
-    header.header .prime .container .text {
-        margin-bottom: -14px;
-        padding-right: 10px;
-        width: 83%;
-        margin-top: -10px
+    .enroll .form form {
+        margin: 0 auto
     }
-    header.header .prime .container .text h1 {
-        font-size: 22px
+    .enroll .form form > * {
+        text-align: center
     }
-    main.container section.company-info .archive h3 {
-        margin-bottom: 0
+    .enroll .form form input[type=text], .enroll .form form input[type=email], .enroll .form form input[type=submit] {
+        display: block;
+        margin: 0 auto;
+        float: none
     }
-    main.container section.company-info .archive .archive-list {
+    main img.photo1 {
+        display: none
+    }
+    main .first-block::before {
+        left: 0;
+        width: 108%
+    }
+    main .first-block {
+        padding-top: 70px;
+        padding-bottom: 40px
+    }
+    nav ul:first-child {
         display: -ms-flexbox;
         display: flex;
         -ms-flex-pack: justify;
         justify-content: space-between;
         -ms-flex-wrap: wrap;
-        flex-wrap: wrap
-    }
-    main.container section.company-info .archive .archive-list li {
-        height: 130px !important;
-        width: 323px;
-        background-color: #fbfbfb !important
-    }
-    main.container section.company-info .archive .archive-list li a {
-        padding-left: 60px;
-        padding-right: 10px;
-        background: url("../img/papka.png") no-repeat top 20px left 5px
-    }
-    main.container section.company-info .archive .archive-list li a .text {
-        width: 200px
-    }
-    main.container section.company-info .archive .archive-list li a .date {
-        margin-top: 20px;
-        font-size: 11px
-    }
-    main.container section.company-info .archive .archive-list li:last-child {
-        background-color: white !important;
+        flex-wrap: wrap;
         width: 100%;
-        height: 95px !important
-    }
-    main.container section.company-info .archive .archive-list li:last-child a {
-        background-position: left top
-    }
-    main.container section.company-info .archive .archive-list li:last-child a .text {
-        width: auto
+        max-width: inherit
     }
 }
-@media (max-width: 692px) {
-    main.container section.company-info .archive .archive-list li {
+@media (max-width: 768px) {
+    section.info .row .col-lg-4:nth-child(2n+2) {
+        border-left: none;
+        border-right: none
+    }
+    .header-top ul li:last-child {
+        display: block;
         width: 100%;
-        height: 120px !important
+        text-align: center
     }
-    main.container section.company-info .archive .archive-list li a {
-        padding-bottom: 35px;
-        background-position: left top;
-        font-size: 10px
-    }
-    main.container section.company-info .archive .archive-list li a .text {
-        width: 72%
-    }
-    main.container section.company-info .archive .archive-list li:last-child {
-        height: 120px !important
-    }
-    main.container section.company-info .archive .archive-list li:last-child a .text {
-        width: 72%
+    .header-bottom ul li .search:before {
+        display: none
     }
 }
-@media (max-width: 550px) {
-    header.header #bs-example-navbar-collapse-1.cola.navbar-collapse.in {
-        top: -261px
+@media (max-width: 575px) {
+    .header-bottom ul .search {
+        display: none
     }
-}
-@media (max-width: 476px) {
-    main.container section.company-info .schedule, main.container aside.right .schedule {
-        display: inline-block !important;
-        width: 100%
-    }
-    main.container section.company-info .schedule .rec-but, main.container aside.right .schedule .rec-but {
-        margin: 20px auto
-    }
-    main.container section.company-info .schedule .info-schedule, main.container aside.right .schedule .info-schedule {
-        padding-left: 10px;
-        padding-right: 10px;
-        max-width: none
-    }
-    main.container aside.right, main.container aside.our-experts {
-        float: none;
-        text-align: center;
+    .header-bottom .col-lg-2 a {
+        display: block;
         margin: 0 auto;
-        margin-bottom: 10px
+        text-align: center
     }
-    main.container section.company-info {
-        padding-right: 15px
-    }
-    main.container section.company-info div.standarts {
-        height: auto
-    }
-    main.container section.company-info div.standarts > a {
-        margin-bottom: 55px
-    }
-    main.container section.company-info div.standarts > span {
-        width: 295px
-    }
-    main.container section.company-info div.standarts .book-list {
-        -ms-flex-direction: column;
-        flex-direction: column;
+}
+@media (max-width: 1085px) {
+    nav ul:first-child {
         display: -ms-flexbox;
         display: flex;
-        position: inherit;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
         -ms-flex-wrap: wrap;
         flex-wrap: wrap;
-        -ms-flex-align: center;
-        align-items: center;
-        -ms-flex-pack: distribute;
-        justify-content: space-around
+        width: 100%;
+        max-width: inherit
     }
-    main.container section.company-info div.standarts .book-list div.item {
-        margin-bottom: 33px;
-        margin-top: 5px;
-        box-shadow: -2px 14px 107px 0px #6A6C6C
-    }
-    main.container section.company-info div.standarts .book-list div.item:first-child {
-        padding-top: 20px
-    }
-    main.container section.company-info div.standarts .book-list div.item:before {
-        display: none
-    }
-    main.container section.company-info div.standarts .book-list div.item:after {
-        display: none
-    }
-    main.container section.company-info div.standarts .book-list div.item .img:after {
-        background-position: left -7px center
-    }
-    main.container section.company-info div.standarts .book-list div.item .bottom-figure {
-        display: none
-    }
-    main.container section.company-info .archive h3 {
-        padding-left: 30px;
-        padding-right: 30px
-    }
-}
-@media (max-width: 463px) {
-    header.header #bs-example-navbar-collapse-1.cola.navbar-collapse.in {
-        top: -281px
-    }
-}
-@media (max-width: 448px) {
-    header.header .shapka.container-fluid .wrapper > div {
-        margin-bottom: 10px
-    }
-    header.header .shapka.container-fluid .wrapper .logo {
-        margin-bottom: 0
-    }
-    header.header .shapka.container-fluid .wrapper .social-icons {
-        position: absolute;
-        left: 105px;
-        top: 30px
-    }
-}
-@media (max-width: 426px) {
-    header.header #bs-example-navbar-collapse-1.cola.navbar-collapse.in {
-        top: -281px
-    }
-    header.header .shapka.container-fluid {
-        height: 250px
-    }
-    header.header .shapka.container-fluid .wrapper {
-        -ms-flex-direction: column;
-        flex-direction: column;
-        -ms-flex-align: center;
-        align-items: center
-    }
-    header.header .shapka.container-fluid .wrapper .logo {
-        padding-left: 0
-    }
-    header.header .shapka.container-fluid .wrapper .social-icons {
-        position: inherit
-    }
-}
-@media (max-width: 402px) {
-    header.header #bs-example-navbar-collapse-1.cola.navbar-collapse.in {
-        top: -333px
-    }
-}
-@media (max-width: 385px) {
-    header.header #bs-example-navbar-collapse-1.cola.navbar-collapse.in {
-        top: -333px
-    }
-}
-@media (max-width: 331px) {
-    header.header #bs-example-navbar-collapse-1.cola.navbar-collapse.in {
-        top: -365px
+    nav ul:last-child {
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-pack: justify;
+        justify-content: space-around;
+        width: 100%
     }
 }
